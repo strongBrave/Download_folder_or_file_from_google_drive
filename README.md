@@ -33,7 +33,7 @@ python download_folder.py --credentials_json_path <path_to_credentials_json> --f
 * `--save_dir`: The local directory where files will be saved.
 
 ```bash
-python download_file.py --credentials_json_path <path_to_credentials_json> --file_id <google_drive_folder_id> --save_dir <local_directory>
+python download_file.py --credentials_json_path <path_to_credentials_json> --file_id <google_drive_file_id> --save_dir <local_directory>
 ```
 
 * `--file_id`: The ID of the file on Google Drive to download.
